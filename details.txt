@@ -27,5 +27,3 @@ http://localhost:9200/_cat/indices?v&pretty
 Filters are cached, it's a very good practice.
 When we user "query" we are calling the end-point _search with BODY, yep, body in a GET, the REST doesn't say
 nothing about it, so this is how it is.
-
-
